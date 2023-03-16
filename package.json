@@ -1,0 +1,19 @@
+{
+  "name": "vue-tsc-import-resolution",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "tsconfig": "workspace:*",
+    "typescript": "5"
+  },
+  "dependencies": {
+    "correct": "workspace:*",
+    "error": "workspace:*",
+    "vue": "2.7.14"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.4.1"
+}
